@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">OK210033ORDER</string>
+
+    <string name="tvMenu">『どれも美味しいよ』</string>
+
+    <string name="btMenu1">注文確認</string>
+    <string name="btMenu2">キャンセル</string>
+
+    <string name="tvMoney">合計</string>
+    <string name="tvEn">円</string>
+    <string name="tvTotal"></string>
+    <string name="tvOrder">注文一覧</string>
+
+    <string name="rgMenu1">ボタン</string>
+
+    <string name="rgMenu2">一覧</string>
+
+    <string name="rbMenu1">おすすめ</string>
+    <string name="rbMenu2">一品料理</string>
+    <string name="rbMenu3">デザート</string>
+    <string name="rbMenu4">ドリンク</string>
+    <string-array name="lvTest"></string-array>
+
+    <string-array name="lvOsusume">
+        <item>インドの王様カレー,800</item>
+        <item>至高の野獣ステーキ,900</item>
+        <item>海の革命海鮮丼,700</item>
+        <item>とろける天国スフレチーズケーキ,300</item>
+        <item>中田先生直伝秘伝のソース焼きそば,600</item>
+        <item>これが本当のから揚げ,300</item>
+        <item>旬の季節を味わえるおすすめデザート,300</item>
+    </string-array>
+
+    <string-array name="lvIppin">
+        <item>天丼,600</item>
+        <item>刺身の盛り合わせ,700</item>
+        <item>ラーメン,700</item>
+        <item>魚の煮込み料理,500</item>
+        <item>母の味野菜炒め,400</item>
+        <item>豆腐揚げの極旨,400</item>
+        <item>焼き鳥,50</item>
+    </string-array>
+
+    <string-array name="lvDezat">
+        <item>プリン,200</item>
+        <item>カスタードシュークリーム,200</item>
+        <item>パンナコッタ,200</item>
+        <item>パフェ,400</item>
+        <item>チョコケーキ,200</item>
+        <item>大学芋,300</item>
+        <item>フルーツ盛り合わせ,400</item>
+    </string-array>
+
+    <string-array name="lvDrink">
+        <item>烏龍茶,100</item>
+        <item>コーラ,100</item>
+        <item>オレンジジュース,100</item>
+        <item>コーヒー,200</item>
+        <item>ハイボール,300</item>
+        <item>ワイン,400</item>
+        <item>カシス,300</item>
+    </string-array>
+    <string name="dialog_title">注文確認</string>
+    <string name="dialog_msg">こちらの料理でよろしいですか？</string>
+    <string name="dialog_btn_ok">OK</string>
+    <string name="dialog_ok_toast">注文ありがとうございます!</string>
+
+</resources>

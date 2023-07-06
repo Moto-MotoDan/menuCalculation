@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvMenu"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/btMenu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btMenu1" />
+
+    <Button
+        android:id="@+id/btMenu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btMenu2" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvMoney"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvEn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvEn"
+            android:textSize="30sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvOrder" />
+
+    <RadioGroup
+        android:id="@+id/rgMenu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbMenu1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rbMenu1" />
+
+        <RadioButton
+            android:id="@+id/rbMenu2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rbMenu2" />
+
+        <RadioButton
+            android:id="@+id/rbMenu3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rbMenu3" />
+
+        <RadioButton
+            android:id="@+id/rbMenu4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rbMenu4" />
+
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/lvTest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:entries="@array/lvTest">
+
+    </ListView>
+
+</LinearLayout>
